@@ -1,0 +1,165 @@
+body {
+  font-family: 'Poppins', sans-serif !important; /* Menggunakan font Poppins */ 
+  /*background-image: url('../assets/img/background-body.jpg'); /* Ganti dengan path gambar Anda */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.background-image  {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(8px);
+  /* Efek blur */
+}       
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Warna overlay hitam dengan opacity 0.5 */
+}  
+.footer-line {
+  border-top: 1px solid #fff; /* Garis atas */
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.copyright {
+  font-size: 14px; /* Ukuran font hak cipta */
+  text-align: center;
+}
+
+/* Mengubah warna latar belakang navbar saat kursor di atasnya */
+.navbar-nav .nav-item:hover > .nav-link,
+.navbar-nav .nav-item:focus > .nav-link {
+    background-color: rgba(162, 162, 162, 0.2); /* Warna latar belakang semi-transparan */
+    color: black;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Lapisan hitam dengan opasitas 50% */
+    z-index: 1; /* Pastikan lapisan hitam berada di atas gambar carousel */
+}
+
+.carousel-caption {
+    z-index: 2; /* Pastikan caption berada di atas lapisan hitam */
+}
+
+/* .carousel-inner .fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.active {
+  opacity: 1;
+} */
+
+
+
+
+  /* Style untuk card */
+  .card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Sesuaikan dengan lebar yang diinginkan */
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  object-fit: cover; /* Atur gambar agar mengisi kotak secara proporsional */
+  height: 400px; /* Atur tinggi gambar */
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+  .fixed.top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .footer {
+    color: darkblue;
+   
+  }
+  
+span {
+    color: orange;
+  }
+
+
+  /* styles.css */
+h2 {
+    font-size: 10px; /* Ubah ukuran font sesuai kebutuhan Anda */
+    font-weight: bold !important;
+}
+
+h5 {
+  font-weight: bold !important;
+}
+
+#gallery-section img {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan */
+}
+
+#typing-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: .15em;
+  animation: typing 3s steps(20, end);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.btn-group .btn-orange {
+  background-color: orange;
+  color: white;
+}
+
+
+
+
+
